@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #141E28;
+    color: #ffffff;
+    text-align: center;
+}
+header {
+    background-color: #0d141b;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #D49B4B;
+}
+.logo {
+    font-size: 18px;
+    font-weight: bold;
+    color: #F2E5C9;
+}
+.btn-head {
+    background-color: #B86532;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.hero {
+    padding: 80px 20px;
+    background-color: #1C2B38;
+}
+.hero h1 {
+    font-size: 32px;
+    color: #F2E5C9;
+    margin-bottom: 10px;
+}
+.subjudul {
+    color: #D49B4B;
+    font-style: italic;
+}
+.info {
+    font-weight: bold;
+    margin: 20px 0;
+}
+.btn-utama {
+    display: inline-block;
+    background-color: #B86532;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.panggung-section {
+    padding: 40px 20px;
+}
+.panggung-box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.panggung {
+    background-color: #E3D1A5;
+    color: #221811;
+    padding: 20px;
+    width: 280px;
+    border-radius: 8px;
+    border: 2px solid #5C3A21;
+}
+.black-stage h3 {
+    background-color: #4A6E8D;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+}
+.heart-stage h3 {
+    background-color: #B86532;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+}
+.lineup-section {
+    padding: 40px 20px;
+}
+.papan-lineup {
+    background-color: #E3D1A5; 
+    border: 4px solid #5C3A21;
+    border-radius: 8px;
+    padding: 25px;
+    max-width: 600px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+.artist {
+    background-color: #F2E5C9;
+    color: #221811;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: 1px solid #5C3A21;
+    border-radius: 4px;
+    width: 40%;
+}
+.tiket-section {
+    padding: 50px 20px;
+    background-color: #1C2B38;
+}
+.btn-tiket {
+    display: inline-block;
+    background-color: #D49B4B; /* Warna Emas */
+    color: #221811;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #0d141b;
+    padding: 15px;
+    font-size: 14px;
+    color: #888;
+}
